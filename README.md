@@ -63,7 +63,7 @@ mini-course-page/
 ````
 ## 📸 Preview
 
-![Course Page Screenshot](./preview.png)
+![Course Page Screenshot](https://github.com/sufyanur-dev/mini-course-page/blob/master/preview.png?raw=true)
 
 ---
 
