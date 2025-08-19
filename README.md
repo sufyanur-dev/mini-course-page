@@ -1,12 +1,123 @@
-# React + Vite
+```markdown
+# 🎓 Mini Course Page - Growth-0-Pedia Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React.js mini project** built as part of the selection round for **Growth-0-Pedia**.  
+The app demonstrates component-based development, API integration, and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📦 **Course Card Component** with:
+  - Course Title
+  - Short Description
+  - Dynamic Price
+  - "Enroll Now" button with success alert
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 **API Integration**  
+  Courses are fetched dynamically from  
+  [`https://jsonplaceholder.typicode.com/posts`](https://jsonplaceholder.typicode.com/posts).
+
+- 📱 **Responsive Design**  
+  Looks good on both **desktop and mobile**.
+
+- 🎨 **Modern UI**  
+  Clean layout, shadows, gradient buttons, and smooth hover effects.
+
+- ⚡ **Error & Loading States**  
+  Better user experience with proper feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js (Vite + SWC)**
+- **Axios** for API calls
+- **CSS3** for styling & responsiveness
+
+---
+
+## 📂 Folder Structure
+
+```
+
+mini-course-page/
+│── public/
+│── src/
+│   ├── api/
+│   │   ├── axiosInstance.js
+│   │   └── course.js
+│   ├── components/
+│   │   └── CourseCard.jsx
+│   ├── pages/
+│   │   └── Courses.jsx
+│   ├── styles/
+│   │   ├── Courses.css
+│   │   └── CourseCard.css
+│   ├── App.jsx
+│   └── main.jsx
+│── .env
+│── package.json
+│── vite.config.js
+
+````
+## 📸 Preview
+
+![Course Page Screenshot](./src//assets/preview.png)
+
+---
+
+## ⚙️ Setup & Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/mini-course-page.git
+   cd mini-course-page
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Add environment variable**
+   Create `.env` in root:
+
+   ```env
+   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
+   ```
+
+4. **Run locally**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌍 Live Demo
+
+🔗 [Deployed on Vercel/Netlify](https://your-live-link.vercel.app)
+
+---
+
+
+
+## 👨‍💻 Author
+
+**Sufyanur Rasheed**
+📍 Nagpur, India
+💼 Frontend Developer (React.js)
+🔗 LinkedIn: https://linkedin.com/in/sufyanur-rasheed
+---
+
+✨ *This project is a demonstration of clean coding practices, responsiveness, and modern UI design.*
+
+```
