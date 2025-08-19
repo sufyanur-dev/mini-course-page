@@ -63,7 +63,7 @@ mini-course-page/
 ````
 ## 📸 Preview
 
-![Course Page Screenshot](./src//assets/preview.png)
+![Course Page Screenshot](./src/assets/preview.png)
 
 ---
 
@@ -71,7 +71,7 @@ mini-course-page/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/mini-course-page.git
+   git clone https://github.com/sufyanur-dev/mini-course-page.git
    cd mini-course-page
 ````
 
@@ -85,7 +85,7 @@ mini-course-page/
    Create `.env` in root:
 
    ```env
-   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
+   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com/posts
    ```
 
 4. **Run locally**
@@ -104,7 +104,7 @@ mini-course-page/
 
 ## 🌍 Live Demo
 
-🔗 [Deployed on Vercel/Netlify](https://your-live-link.vercel.app)
+🔗 [Deployed on Vercel/Netlify](https://mini-course-page.onrender.com)
 
 ---
 
