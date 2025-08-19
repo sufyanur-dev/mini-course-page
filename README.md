@@ -63,7 +63,7 @@ mini-course-page/
 ````
 ## 📸 Preview
 
-![Course Page Screenshot](./src/assets/preview.png)
+![Course Page Screenshot](./preview.png)
 
 ---
 
@@ -85,7 +85,7 @@ mini-course-page/
    Create `.env` in root:
 
    ```env
-   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com/posts
+   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
    ```
 
 4. **Run locally**
@@ -104,7 +104,7 @@ mini-course-page/
 
 ## 🌍 Live Demo
 
-🔗 [Deployed on Vercel/Netlify](https://mini-course-page.onrender.com)
+🔗 [Deployed on Render](https://mini-course-page.onrender.com)
 
 ---
 

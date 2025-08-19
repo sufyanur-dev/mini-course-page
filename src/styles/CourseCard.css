@@ -63,6 +63,17 @@
   transform: scale(1.05);
 }
 
+.loading {
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
 /* Responsive tweaks */
 @media (max-width: 768px) {
   .courses-container {
