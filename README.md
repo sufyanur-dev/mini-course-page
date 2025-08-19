@@ -82,12 +82,8 @@ mini-course-page/
    ```
 
 3. **Add environment variable**
-   Create `.env` in root:
-
-   ```env
-   VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
-   ```
-
+   Create `.env` in root
+   
 4. **Run locally**
 
    ```bash
@@ -104,7 +100,7 @@ mini-course-page/
 
 ## 🌍 Live Demo
 
-🔗 [Deployed on Render](https://mini-course-page.onrender.com)
+🔗 [Deployed on Netlify](https://68a4d7ef09058f9c391b16f2--mini-course-page.netlify.app/)
 
 ---
 
