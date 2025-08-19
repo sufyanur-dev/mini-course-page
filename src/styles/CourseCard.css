@@ -1,0 +1,84 @@
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.course-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.course-desc {
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+/* Price */
+.course-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2e7d32; /* green */
+}
+
+/* Button */
+.enroll-btn {
+  background: linear-gradient(135deg, #1976d2, #42a5f5); /* gradient */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.enroll-btn:hover {
+  background: linear-gradient(135deg, #1565c0, #1e88e5);
+  transform: scale(1.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .courses-container {
+    padding: 20px;
+  }
+
+  .course-title {
+    font-size: 16px;
+  }
+
+  .course-desc {
+    font-size: 13px;
+  }
+
+  .enroll-btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
