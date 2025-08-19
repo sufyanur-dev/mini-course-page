@@ -83,7 +83,7 @@ mini-course-page/
 
 3. **Add environment variable**
    Create `.env` in root
-   
+
 4. **Run locally**
 
    ```bash
@@ -100,7 +100,7 @@ mini-course-page/
 
 ## 🌍 Live Demo
 
-🔗 [Deployed on Netlify](https://68a4d7ef09058f9c391b16f2--mini-course-page.netlify.app/)
+🔗 [Deployed on Netlify](https://mini-course-page.netlify.app/)
 
 ---
 
